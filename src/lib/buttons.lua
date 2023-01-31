@@ -23,6 +23,7 @@ function buttons:createButton(xmin, ymax, xmax, ymin, initText)
     }
 
     table.insert(button, bounds)
+    table.insert(button, properties)
 
     function button:setText(text)
         buttons:setText(button, text)
