@@ -19,6 +19,6 @@ local function downloadFile(path, out)
 end
 
 createStructure()
-downloadFile("src/nitidus.lua", "nitidus/nitidus.lua")
+downloadFile("src/nitidus.lua", "nitidus/init.lua")
 downloadFile("src/lib/buttons.lua", "nitidus/lib/buttons.lua")
 print("Installed Nitidus v1.0 successfully.")
