@@ -1,4 +1,4 @@
-local buttons = require("lib.buttons")
+local buttons = require("nitidus.lib.buttons")
 
 local nitidus = {
     ["version"] = "0.0.1a",
