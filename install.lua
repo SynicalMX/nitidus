@@ -2,6 +2,10 @@ local server = "https://raw.githubusercontent.com/SynicalMX/nitidus/master/"
 local dir = "nitidus/"
 
 local function createStructure()
+    if fs.exists('/nitidus') ~= true then
+        print("Nitidus is already installed.")
+        os.exit(0)
+    end
     fs.makeDir("nitidus")
     fs.makeDir("nitidus/lib")
 end
